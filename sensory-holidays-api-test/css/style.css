@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/holiday.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contain {
+
+  display: flex;
+      
+  /* flex-flow: column; */ 
+  flex-direction: column;  
+
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+  width:100%;
+
+}
+
+.contain > div{
+  background: #dddddd;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  width:80%;
+  margin:0 auto;
+  padding: 8px;
+}
+
+li {
+  list-style: none;
+}
